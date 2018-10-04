@@ -2,6 +2,21 @@
     border-radius: 50%;
     width: 350px;
     height: 350px;
-       
+    border: 10px solid;
     
+}
+h1{
+    font-family: Roboto, sans-serif;
+    font-size:50px;
+    font-weight:noraml;
+    color:white;
+    border-style: dotted;
+    border-color: black;
+    border-left-width: 15px;
+    border-top-width: 20px;
+    background:black;
+    
+}
+h2{
+    font-family: Libre Baskerville, serif;
 }

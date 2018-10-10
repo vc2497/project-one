@@ -1,22 +1,83 @@
-.VanGogh{
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    border: 10px solid;
+body{
+    text-align: center;
+    
     
 }
+ul{
+    text-align: center;
+}
+
+
+.VanGogh{ 
+    margin: 0px auto;
+    width: 450px;
+    height: 450px;
+    
+}
+    
+.Heading{
+    background-color:black;
+    background-position: fixed;
+    padding-bottom: 1px;
+}   
+
 h1{
     font-family: Roboto, sans-serif;
     font-size:50px;
     font-weight:noraml;
-    color:white;
-    border-style: dotted;
-    border-color: black;
-    border-left-width: 15px;
-    border-top-width: 20px;
-    background:black;
-    
+    color: white;
+       
 }
 h2{
     font-family: Libre Baskerville, serif;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+ul{
+    display:table;
+    margin: 0 auto;
+    
+}
+li{
+    text-align: left;
+    font-weight:lighter;
+}
+
+.Images{
+    display:inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 600px;
+    width:800px;
+    max-width: 100%;
+    padding:10px;
+      
+}
+
+
+.MainImages::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.BodyText{
+    width: 900px;
+    max-width: 100%;
+    margin: 10px auto;
+    text-align:justify;
+    display: inline-block; 
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-right-style:solid;
+    border-left-style:solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:7px;
+    padding-right:7px;
+    
+ 
 }
